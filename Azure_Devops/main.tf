@@ -1,6 +1,7 @@
 provider "aws" {
-  version = "~> 2.0"
-  region  = "us-east-1"
+   region  = "us-east-2"
+   access_key = "AKIA3SKVBDL54TUOXOWT"
+   secret_key = "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"
 }
 
 resource "aws_vpc" "main" {

@@ -1,8 +1,5 @@
 provider "aws" {
    region  = "us-east-2"
-   access_key = ""
-   secret_key = ""
-   skip_requesting_account_id = true
 }
 
 resource "aws_vpc" "main" {
